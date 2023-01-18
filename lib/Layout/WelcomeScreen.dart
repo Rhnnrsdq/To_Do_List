@@ -12,7 +12,7 @@ class WelcomeScreen extends StatelessWidget {
             flex: 2,
             child: Padding(padding: EdgeInsets.all(25),
             child: Container(
-              child: Image(image: AssetImage('assets/TODO.png'))
+              child: Image(image: AssetImage('assets/tdp.png'))
               //child: CircleAvatar(radius: 170,backgroundImage: NetworkImage("https://drive.google.com/file/d/1Ian3soj0fv152f8XlsyPVXlGFa9bkdjr/view?usp=sharing"),),
             ),)
           ),
@@ -48,7 +48,7 @@ class WelcomeScreen extends StatelessWidget {
                         children: <Widget>[
                           
                           Text(
-                            "Hayu Mulai",
+                            "Ayo Mulai",
                             style: Theme.of(context).textTheme.button?.copyWith(
                                   color: Color.fromARGB(255, 245, 244, 244),
                                 ),
